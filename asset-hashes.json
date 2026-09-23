@@ -1,0 +1,17 @@
+[
+  {
+    "path": "candidate-sources.json",
+    "bytes": 2270,
+    "sha256": "74c818c5863cc6e084e9e0c296505e75559b4443607ecb3a7a210081bcbb6a73"
+  },
+  {
+    "path": "desktop.png",
+    "bytes": 80039,
+    "sha256": "628165aa8a990ebc7f1ac41fb6a2d7a328e79b434d9b12bb1e5475c9169912a5"
+  },
+  {
+    "path": "narrow.png",
+    "bytes": 30651,
+    "sha256": "311e31e0786d300f2f7b9252bdd16dcb550964e611c5c8a21881414589011229"
+  }
+]

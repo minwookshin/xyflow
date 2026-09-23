@@ -1,0 +1,61 @@
+{
+  "upstream": "xyflow/xyflow",
+  "tested_base": "0a1f9575b25679f2880175de8d3eae21aedde921",
+  "scope": "Actual React example at /examples/keyboard-outline. Desktop capture uses the production build. The narrow capture demonstrates native focus scrolling with unchanged final example source. The 21 new cases pass in three engines; one existing macOS WebKit Control-drag failure remains outside this example.",
+  "candidates": [
+    {
+      "key": "xyflow-types",
+      "files": [
+        {
+          "path": "examples/react/package.json",
+          "sha256": "09f46a62256d3f2b071bc26dbf298cfb5ddb379aa7c21754fa4a9327cb7b00a6"
+        },
+        {
+          "path": "packages/svelte/package.json",
+          "sha256": "d41a5882d5ac8d351d560dbe8743f6d0f086d03f257ca5a6793d9be953d4c876"
+        },
+        {
+          "path": "pnpm-lock.yaml",
+          "sha256": "5924e20e33758a50545af74d06cfc490ea0ffbabe800961e2e1ede2e9da7b490"
+        }
+      ],
+      "patches": [
+        {
+          "name": "xyflow-node-types.patch",
+          "sha256": "8d44d26468e6c32f24c22910ef80b73ea620db96848f2d9157f47d03f43516b1"
+        }
+      ]
+    },
+    {
+      "key": "xyflow-outline",
+      "files": [
+        {
+          "path": "examples/react/src/App/routes.ts",
+          "sha256": "cfb12553411876616fbd50df0fbe9e8780b9fdc52d1933d22ce154aa5fcbff50"
+        },
+        {
+          "path": "examples/react/src/examples/KeyboardOutline/README.md",
+          "sha256": "e2d6fee133d1e99803706be8130c2ae831eb797dc15707a6b938b572640a5f3c"
+        },
+        {
+          "path": "examples/react/src/examples/KeyboardOutline/index.tsx",
+          "sha256": "99773b209538b1575e0a0586910283798b85f51181330033f1cd7aa7727803a3"
+        },
+        {
+          "path": "examples/react/src/examples/KeyboardOutline/style.css",
+          "sha256": "4c6ca778ab528b4e7a7990df1584adafd76a7c007505921f93b527d8d6656646"
+        },
+        {
+          "path": "tests/playwright/e2e/keyboard-outline.spec.ts",
+          "sha256": "97e4f30a4f921a209bc9518f16bb13ef99e365389cc854df2816720dc529fff4"
+        }
+      ],
+      "patches": [
+        {
+          "name": "xyflow-round3.patch",
+          "sha256": "a61c2654a55b4108d35fc8b9ce216a364039248b0c7ee60da822f2ac14599401"
+        }
+      ]
+    }
+  ]
+}
